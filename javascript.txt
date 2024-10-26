@@ -1,0 +1,8 @@
+1. node.js설치한다
+2. visual studio code 설치한다
+3. 다운로드 받은 폴더를 오픈한다
+4. Add Configuration을 한다
+5. Chrome Launch로 Add Configuration 추가한다
+6. Chrome Launch configuration에 아래를 추가한다(localhost 8080 연결거부를 막기 위한 설정)
+  "file": "${workspaceRoot}/index.html",
+
